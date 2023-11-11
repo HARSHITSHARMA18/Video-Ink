@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  background-color: #020617;
+  font-family: Roboto;
+
+}
+
+.tablet-image{
+  width: 55%;
+}
+
+h1,h3,p{
+  text-align: center;
+}
+
+.VideoInput_input{
+  display:none;
+}
+
+.Upload-button{
+  background-color: rgb(226, 43, 195);
+  width: 120px;
+  height: 50px;
+  
+  
+  
+}
+
+/* VIDEO PLAYER AND CANVAS */
+
+
+.VideoInput_video{
+  
+  text-align: center;
+  margin: 0 auto;
+}
+
+
+.whiteboard {
+  height: 22rem;
+  margin: 1rem;
+  background-color: black;
+  
+}
+
+.colors {
+  position: fixed;
+}
+
+.color {
+  display: inline-block;
+  height: 48px;
+  width: 48px;
+  
+}
+
+.canvas-container{
+  text-align: center;
+  padding:8rem;
+}
+
+
+/* FOOTER SECTION */
+
+
+a{
+  width: 3%;
+  margin: 2%;
+}
+
