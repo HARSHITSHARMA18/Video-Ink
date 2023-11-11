@@ -86,7 +86,7 @@ export default function VideoInput() {
           )}
 
           {/* WRITING PAD */}
-          {hasAudio && <BlackBoard />}
+          <BlackBoard />
         </div>
       </div>
     </>
