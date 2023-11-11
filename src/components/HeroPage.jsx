@@ -1,4 +1,4 @@
-import tablet from "../assets/tablet.png";
+import tablet from "../assets/Tablet.png";
 import VideoInput from "./VideoInput";
 import TypewriterComponent from "typewriter-effect";
 
